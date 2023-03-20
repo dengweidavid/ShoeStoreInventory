@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="label_text_size">16sp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="layout_top_margin">32dp</dimen>
+    <dimen name="layout_left_margin">32dp</dimen>
+    <dimen name="layout_right_margin">32dp</dimen>
+    <dimen name="big_padding">24dp</dimen>
+    <dimen name="input_text_size">18sp</dimen>
+    <dimen name="button_text_size">18sp</dimen>
+    <dimen name="welcome_text_size">32sp</dimen>
+    <dimen name="slogan_text_size">24sp</dimen>
+    <dimen name="instruction_title_size">32sp</dimen>
+    <dimen name="instruction_text_size">18sp</dimen>
+</resources>
