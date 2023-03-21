@@ -12,4 +12,13 @@
     <string name="instruction_title">Instruction</string>
     <string name="instruction_detail">In shoe list screen, press add button to enter shoe detail screen, press three dots in the upper right corner to logout.\n\nIn shoe detail screen, input shoe name, company, shoe size and description, press save button or cancel button.
     </string>
+    <string name="name">Name:</string>
+    <string name="company">Company:</string>
+    <string name="size">Size:</string>
+    <string name="shoe_name">Shoe name</string>
+    <string name="shoe_company">Company name</string>
+    <string name="shoe_size">Shoe size</string>
+    <string name="shoe_description">Shoe description:</string>
+    <string name="save">save</string>
+    <string name="cancel">cancel</string>
 </resources>
