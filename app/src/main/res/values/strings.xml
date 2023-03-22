@@ -22,4 +22,9 @@
     <string name="save">save</string>
     <string name="cancel">cancel</string>
     <string name="logout">Logout</string>
+    <string name="Shoe_Store_Login">Shoe Store Login</string>
+    <string name="Shoe_Store_Welcome">Shoe Store Welcome</string>
+    <string name="Shoe_Store_Instruction">Shoe Store Instruction</string>
+    <string name="Shoe_Store_List">Shoe Store List</string>
+    <string name="Add_Shoe_Detail">Add Shoe Detail</string>
 </resources>

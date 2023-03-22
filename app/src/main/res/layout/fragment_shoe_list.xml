@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ui.ShoeListFragment">
 
-    <!-- Constraintlayout has to be chosen due to that a FloatingActionButton is always in front
+    <!-- Constraint layout has to be chosen due to that a FloatingActionButton is always in front
          to the scroll view. I don't think I can do it using linear layout -->
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ui.ShoeDetailFragment">
 
-    <!-- I choose constraintlayout because there are quite lots of view here -->
+    <!-- I choose constraint layout because there are quite lots of view here.
+         If I use linear layout, I might have to use nested layout -->
+
+    <!-- Since shoe size is double, I have to add converter class to make
+        double binding working -->
 
     <data>
         <import type="com.udacity.shoestore.models.Converter"/>
