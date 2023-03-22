@@ -16,12 +16,16 @@ class ShoeDetailFragment  : Fragment() {
     private lateinit var binding: FragmentShoeDetailBinding
     private val shoeViewModel: ShoeViewModel by activityViewModels()
 
+    private val myShoe: Shoe = Shoe("", 0.0, "", "")
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_shoe_detail, container, false)
+
+        binding.myShoe = myShoe
 
         binding.cancelButton.setOnClickListener {
             findNavController().popBackStack()
@@ -36,14 +40,7 @@ class ShoeDetailFragment  : Fragment() {
     }
 
     private fun addShoe() {
-        val shoe = Shoe(
-            binding.shoeEdit.text.toString(),
-            binding.shoeSizeSpinner.selectedItem.toString().toDouble(),
-            binding.companyNameEdit.text.toString(),
-            binding.shoeDescriptionEdit.text.toString()
-        )
-
-        shoeViewModel.addShoe(shoe)
+        shoeViewModel.addShoe(myShoe)
     }
 
 }
