@@ -30,7 +30,7 @@ class ShoeListFragment  : Fragment() {
         }
 
         binding.addShoeButton.setOnClickListener {
-            findNavController().navigate(ShoeListFragmentDirections.actionShoeListFragmentToShoeDetaiFragment())
+            findNavController().navigate(ShoeListFragmentDirections.actionShoeListFragmentToShoeDetailFragment())
         }
 
         return binding.root
